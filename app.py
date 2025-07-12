@@ -30,7 +30,7 @@ left_col, right_col = st.columns([1, 2])
 
 # Left Column: Image
 with left_col:
-    st.image("https://www.dtstranslates.com/wp-content/uploads/2020/09/interpreter-vs-translator-1.jpeg", use_column_width=True)
+    st.image("https://www.dtstranslates.com/wp-content/uploads/2020/09/interpreter-vs-translator-1.jpeg",use_container_width=True)
 
 # Right Column: Text input and output
 with right_col:
